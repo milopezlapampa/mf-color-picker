@@ -11,7 +11,7 @@ module.exports = (_, argv) => {
   return {
   output: {
     publicPath: argv.mode === "development"
-    ? "http://localhost:3001"
+    ? "http://localhost:3001/"
     : "https://mfcolor-picker.netlify.app/",
   },
 
