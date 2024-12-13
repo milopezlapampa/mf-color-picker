@@ -7,7 +7,7 @@ import { useColors } from "./hooks/useColors";
 
 const App = () => {
 
-  const {color, handleChangeColor, handleSubmitSaveColor} = useColors();
+  const {color, handleChangeColor, handleSubmitSaveColor } = useColors();
 
   return (
   <div className="container">
